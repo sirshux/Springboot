@@ -1,0 +1,14 @@
+#yml主流更改端口文件
+
+#server:
+#  port: 56
+
+
+
+cat: 宠物
+cit: 城市
+user:
+  da: 张三
+  kk: 王五
+  ll: 总开关
+  ko: log

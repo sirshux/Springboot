@@ -1,0 +1,26 @@
+#浏览器端口的配置
+server:
+  port: 80
+
+#数据库的配置
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/date?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+      username: root
+      password: 2561115100
+
+#数据库设置
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix:  #tb_开头
+      id-type: auto #数据库式自增
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+
+
